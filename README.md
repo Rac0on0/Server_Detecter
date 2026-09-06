@@ -5,6 +5,10 @@ This is a lightweight, non-intrusive network overlay tool that displays your cur
 
 ---
 
+사용 예시 ㅣ Use Example
+<img width="329" height="96" alt="스크린샷 2026-09-06 140239" src="https://github.com/user-attachments/assets/7af11812-d8ea-4e5b-8784-7a363c527410" />
+
+
 ## 주요 기능 (Features)
 
 - **백그라운드 패킷 분석 (Raw Socket)**  
