@@ -39,6 +39,10 @@ This is a lightweight, non-intrusive network overlay tool that displays your cur
   윈도우 Raw Socket(`socket.SOCK_RAW`)을 활용하여 송수신 IP/UDP 헤더 정보만 단순 조회합니다.  
   Operates solely at the OS network level using Windows Raw Sockets (`socket.SOCK_RAW`) to inspect inbound/outbound IP/UDP headers.
 
+- **미인증 및 면책 사항 (Disclaimer & User Responsibility)**  
+  본 프로그램은 게임 공식 개발사의 공식 승인이나 인증을 받지 않은 개인용 유틸리티 툴입니다. 프로그램 사용으로 발생하는 모든 결과 및 책임은 사용자 본인에게 있습니다.  
+  This tool is an unofficial, independent utility and is **NOT officially endorsed or approved by the game developers**. Users assume all risks and responsibilities for using this software.
+
 ---
 
 ## 사용법 및 주의 사항 (Usage & Requirements)
