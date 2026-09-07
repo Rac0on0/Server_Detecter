@@ -34,23 +34,9 @@ This is a lightweight, non-intrusive network overlay tool that displays your cur
 
 ---
 
-## 기술적 동작 방식 및 약관 준수 (Technical Notes & Compliance)
-
-- **비인가 변조 없음 (Non-Intrusive)**  
-  게임 프로세스나 메모리에 코드를 주입하거나, 변조하거나, 읽지 않습니다.  
-  Does **NOT** inject code, read/modify game memory, or alter game files.
-
-- **순수 네트워크 모니터링 (Pure Network Monitoring)**  
-  윈도우 Raw Socket(`socket.SOCK_RAW`)을 활용하여 송수신 IP/UDP 헤더 정보만 단순 조회합니다.  
-  Operates solely at the OS network level using Windows Raw Sockets (`socket.SOCK_RAW`) to inspect inbound/outbound IP/UDP headers.
-
-- **미인증 및 면책 사항 (Disclaimer & User Responsibility)**  
-  본 프로그램은 게임 공식 개발사의 공식 승인이나 인증을 받지 않은 개인용 유틸리티 툴입니다. 프로그램 사용으로 발생하는 모든 결과 및 책임은 사용자 본인에게 있습니다.  
-  This tool is an unofficial, independent utility and is **NOT officially endorsed or approved by the game developers**. Users assume all risks and responsibilities for using this software.
-
----
-
 ## 사용법 및 주의 사항 (Usage & Requirements)
+
+**Server_Detector.exe를 다운받으셔야 합니다**
 
 1. **관리자 권한 필요 (Admin Privileges Required)**  
    - Raw Socket 패킷 수집 특성상 프로그램 실행 시 **관리자 권한**이 필수입니다.  
@@ -87,6 +73,22 @@ Due to PyInstaller packaging and Raw Socket usage, **Windows Defender** may flag
 
 4. 우측 하단의 **`작업`** 버튼 클릭 ➔ **`허용`** (또는 **`디바이스에서 허용`**) 선택  
    Click the **`Actions`** button at the bottom right ➔ Select **`Allow`** (or **`Allow on device`**).
+
+---
+
+## 기술적 동작 방식 및 약관 준수 (Technical Notes & Compliance)
+
+- **비인가 변조 없음 (Non-Intrusive)**  
+  게임 프로세스나 메모리에 코드를 주입하거나, 변조하거나, 읽지 않습니다.  
+  Does **NOT** inject code, read/modify game memory, or alter game files.
+
+- **순수 네트워크 모니터링 (Pure Network Monitoring)**  
+  윈도우 Raw Socket(`socket.SOCK_RAW`)을 활용하여 송수신 IP/UDP 헤더 정보만 단순 조회합니다.  
+  Operates solely at the OS network level using Windows Raw Sockets (`socket.SOCK_RAW`) to inspect inbound/outbound IP/UDP headers.
+
+- **미인증 및 면책 사항 (Disclaimer & User Responsibility)**  
+  본 프로그램은 게임 공식 개발사의 공식 승인이나 인증을 받지 않은 개인용 유틸리티 툴입니다. 프로그램 사용으로 발생하는 모든 결과 및 책임은 사용자 본인에게 있습니다.  
+  This tool is an unofficial, independent utility and is **NOT officially endorsed or approved by the game developers**. Users assume all risks and responsibilities for using this software.
 
 ---
 
