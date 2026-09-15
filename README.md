@@ -7,7 +7,7 @@ This is a lightweight, non-intrusive network overlay tool that displays your cur
 
 사용 예시 ㅣ Use Example
 
-<img width="329" height="96" alt="스크린샷 2026-09-06 140239" src="https://github.com/user-attachments/assets/7af11812-d8ea-4e5b-8784-7a363c527410" />
+<img width="258" height="265" alt="스크린샷 2026-09-16 001711" src="https://github.com/user-attachments/assets/b3bac081-d6f9-410b-9f2a-0c41179d2325" />
 
 
 ## 주요 기능 (Features)
